@@ -8,7 +8,7 @@ d=0
 def head():	 
 	
 	if a==0:
-		draw.create_rectangle((15, 15, 290, 290), fill="white", outline="black",width="2")
+		draw.create_rectangle((15, 15, 290, 290), fill="yellow", outline="black",width="2")
 	
 	elif a==1:
 		draw.create_oval((15,15,290,290))
@@ -29,9 +29,9 @@ def mouth():
 def eyes():
 	if a==0:
 	 draw.create_rectangle((72,72,130,130),fill="white")
-	 draw.create_oval((165,72,221,130),fill="white")
-	 draw.create_rectangle((82,82,117,120),fill="black")
-	 draw.create_oval((175,82,211,120),fill="black")
+	 draw.create_rectangle((165,72,221,130),fill="white")
+	 draw.create_rectangle((82,82,117,120),fill="blue")
+	 draw.create_rectangle((175,82,211,120),fill="blue")
 	elif a==1:
 	 draw.create_oval((72,72,130,130),fill="white")
 	 draw.create_oval((165,72,221,130),fill="white")
